@@ -1,0 +1,105 @@
+ul{
+	list-style-type: none;
+  padding: 0;
+	margin: 0
+}
+body{
+	margin: 0;
+	font-size: 14px;
+	color: #333;
+	background-color: #e1e1e1;
+  font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB",STHeiti,sans-serif!important
+}
+
+
+
+// tag 标签模块
+.home-inner {
+	margin-top: 12px;
+
+	.home-inner-title {
+		padding: 10px;
+		color: #51585c;
+		font-size: 13px;
+		background-color: #f6f6f6;
+		border-radius: 3px 3px 0 0;
+	}
+	.home-inner-content {
+		background: #fff;
+		padding: 10px;
+		color: #778087;
+		border-radius: 0 0 3px 3px;
+	}
+}
+
+
+// 组件内容容器
+.main-container {
+	position: relative;
+
+	.container-panel {
+		margin-right: 305px;
+	}
+	.container-sildebar {
+		width: 290px;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+}
+
+
+
+// common.css
+.font-size-title {
+	font-size: 14px!important;
+}
+.cancel-padding {
+	padding: 0 !important;
+}
+.span-content:before {
+	content: "•";
+}
+.inner-margin-top {
+	margin-top: 0;
+}
+
+.titleActive {
+	color: #888;
+}
+.black-color {
+	color: #333
+}
+.cancel-margin {
+	margin: 5px 0 !important;
+}
+.title-color {
+	color: #999;
+}
+
+
+
+.home {
+	color: #ccc !important;
+	font-size: 14px !important;
+
+	span:first-child {
+		color: #80bd01;
+		margin-right: 5px;
+		cursor: pointer;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+
+@media screen and (max-width: 979px) {
+	.hide {
+		display: none;
+	}
+	.cancel-margin-right {
+		margin: 0 5px !important;
+	}
+}

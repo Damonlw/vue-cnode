@@ -9,10 +9,11 @@ export default {
 			// request.onreadystatechange = () =>{
 			// 	if(request.readyState === 4 && request.status === 200) {
 			// 		resolve(request.responseText)
-			// 		console.log(request.responseText);
+			// 		console.log(JSON.parse(request.responseText));
 			// 	}
 			// }
 			// request.send(null);
+
 			$.get('https://cnodejs.org/api/v1/topics',{ tab: obj.tab, limit:'46', page: obj.page }, function(data){
 				resolve(data.data)
 			})

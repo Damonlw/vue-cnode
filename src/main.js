@@ -14,7 +14,6 @@ import about from './components/About'
 import login from './components/login'
 import api from './components/API'
 import forgetPassword from './components/forgetPassword'
-import checkMore from './components/checkMore'
 /* eslint-disable no-new */
 
 Vue.use(VueRouter);
@@ -51,10 +50,6 @@ const routes = [
   {
     path: '/search_pass',
     component: forgetPassword
-  },
-  {
-    path: '/user/:name/topics',
-    component: checkMore
   }
 ];
 

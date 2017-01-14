@@ -4,11 +4,11 @@ A Vue.js project
 
 基于 vue2.0 + vuex + vue-router + ES6 + webpack 的单页面应用
 
-搜索框用的百度的搜索API
+搜索框用的是百度搜索API
 
 有做响应式布局
 
-比较坑的是接口的数据实在不好用，都要自己拼装，资源也比较有限...
+比较坑的是接口的数据实在不好用，都要自己拼装，资源也比较有限…用户信息里的话题查看更多就没写，因为没数据会显得简陋怪异。
 
 ![](https://github.com/Damonlw/vue-cnode/raw/master/logo/cnode.png)
 

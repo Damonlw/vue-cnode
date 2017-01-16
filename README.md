@@ -10,8 +10,6 @@ A Vue.js project
 
 比较坑的是接口的数据实在不好用，都要自己拼装，资源也比较有限…
 
-没写用户信息里话题的查看更多，因为数据不全会显得简陋怪异。
-
 ![](https://github.com/Damonlw/vue-cnode/raw/master/logo/cnode.png)
 
 ## Build Setup
